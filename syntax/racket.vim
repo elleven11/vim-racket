@@ -13,9 +13,6 @@ endif
 
 syn case ignore
 
-" Highlight unmatched parens
-syn match racketError ,[]})],
-
 if version < 600
   set iskeyword=33,35-39,42-58,60-90,94,95,97-122,126,_
 else
