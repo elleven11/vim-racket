@@ -465,7 +465,8 @@ syn keyword racketFunc current-seconds current-inexact-milliseconds
 syn keyword racketFunc seconds->date current-milliseconds
 
 " Typed 
-syn keyword racketFunc define-type type-case
+syn keyword racketSyntax define-type
+syn keyword racketFunc type-case
 
 syn match racketDelimiter !\<\.\>!
 
