@@ -1,4 +1,4 @@
-# vim-racket
+# vim-racket, but forked to have less colors
 
 Installation
 ------------
